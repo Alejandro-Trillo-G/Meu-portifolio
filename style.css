@@ -224,7 +224,7 @@ main .sobre {
 .sobre_texto h1 {
   font-family: "Sedgwick Ave Display", cursive;
   font-size: 2.3rem;
-  color: #9c9c9c;
+  color: #707070;
   grid-column: 1/-1;
 }
 
@@ -526,7 +526,7 @@ main .sobre {
   color: #3e3d3d;
 }
 
-/* MEUS DIPROMAS E CURSOS */
+/* MEUS DIPLOMAS E CURSOS */
 
 .resume_gerenico .education_content div {
   animation: sobeSecao 0.5s ease-in-out forwards;
@@ -582,14 +582,15 @@ main .sobre {
 
 /* SOBRE CURSOS E SKILLS */
 
-.cursos {
+.cursos-hobbies {
   margin-top: 50px;
-  display: grid;
+  display: inline-block;
   gap: 30px;
   justify-content: center;
   align-items: start;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 30px;
+  margin: 80px;
 }
 
 .my_skill {
