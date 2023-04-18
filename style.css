@@ -107,6 +107,14 @@ header .navegacao-primaria li a:hover::after {
   border: 2px solid white;
 }
 
+.section-div div a:hover {
+    justify-self: start;
+    color: #3652f1;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 2px solid #3652f1;
+  }
+
 .section-div img {
   max-width: 100%;
 }
