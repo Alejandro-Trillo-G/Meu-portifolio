@@ -22,19 +22,19 @@
       <h1>Alejandro <span>Trillo</span></h1>
       <nav>
         <ul aria-label="Navegação primária" class="navegacao-primaria">
-          <li><a href="#home">Início</a></li>
+          <li><a href="#inicio">Início</a></li>
           <li><a href="#about">sobre</a></li>
-          <li><a href="#resume">Serviços</a></li>
-          <li><a href="#portfolio">Resumo</a></li>
-          <li><a href="#pricing">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <li><a href="#especializacao">Serviços</a></li>
+          <li><a href="#resumo">Resumo</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
         <i class="fa-solid fa-bars"></i>
       </nav>
     </header>
     <section
       aria-label="seção curriculo donwload Alejandro"
-      class="section-div"
+      class="section-div" id="inicio"
     >
       <div>
         <h2>Olá, eu sou Alejandro</h2>
@@ -51,7 +51,7 @@
       />
     </section>
     <main>
-      <article aria-label="seção sobre mim" class="sobre">
+      <article aria-label="seção sobre mim" class="sobre" id="about">
         <div class="sobre_titulo">
           <h1>Sobre mim</h1>
           <p>Contando um pouco mais sobre mim</p>
@@ -107,7 +107,7 @@
         </div>
       </article>
     </main>
-    <section class="services">
+    <section class="services" id="especializacao">
       <div class="sobre_titulo">
         <h1>Perfil profissional</h1>
         <p>Professional Profile - There is All About me</p>
@@ -149,7 +149,7 @@
       </div>
     </section>
     <section class="my_resume">
-      <div class="sobre_titulo">
+      <div class="sobre_titulo" id="resumo">
         <h1>Resumo</h1>
         <p>Experiências e Estudos</p>
         <div aria-label="Seção apenas de ilustrações de botões">
@@ -347,7 +347,7 @@
       </div>
     </section>
     <section class="projects">
-        <div class="sobre_titulo">
+        <div class="sobre_titulo" id="projetos">
             <h1>Projetos</h1>
             <p>Projetos profissonais exemplares</p>
             <div aria-label="Seção apenas de ilustrações de botões">
@@ -377,11 +377,11 @@
               <span></span>
             </div>
         <nav aria-label="Navegação de links sociais">
-            <ul class="footer_social">
-                <li><i class="fa-brands fa-linkedin-in"><a href="linkedin.com/in/alejandro-trillo-1b7614227" target="_blank"></a></i></li>
-                <li><i class="fa-brands fa-github-alt"><a href="https://github.com/Alejandro-Trillo-G" target="_blank"></a></i></li>
-                <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/ale_obrabo/" target="_blank"></a></li>
-            </ul>
+            <div class="medias-sociais" id="contato">
+                <a href="https://linkedin.com/in/alejandro-trillo-1b7614227" target="_blank"><i class="fa-brands fa-linkedin-in" ></i></a>
+                <a href="https://github.com/Alejandro-Trillo-G" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                <a href="https://www.instagram.com/ale_obrabo/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
         </nav>  
         <p class="footer_comercial"> Alejandro Trillo &copy; - 2023</p>  
     </footer>

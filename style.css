@@ -177,7 +177,6 @@ main .sobre {
   font-size: 2.5rem;
   color: #3652f1;
   margin-bottom: 15px;
-  font-family: "Berkshire Swash", cursive;
 }
 
 .sobre_titulo p {
@@ -768,42 +767,28 @@ footer {
     padding: 30px;
 }
 
-.footer_social{
-    margin: 50px 0px 60px 0px;
-    display: flex;
+.medias-sociais{
+    padding: 30px;}
+
+.medias-sociais a {
+    transition: 0.4s;
+    display: inline-flex;
+    background-color: #222;
+    color: #f7f7f7;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    font-size: 1.9rem;
+    text-decoration: none;
+    border-radius: 50px;
     justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
     align-items: center;
-    position: relative;
 }
 
-.footer_social li{
-    background-color: #212020;
-    border-radius: 50%;
-    border: 1px solid #333;
+.medias-sociais a:hover{
+    color: #3652f1;
+    border: 1px solid #3652f1;
 }
-
-.footer_social li i{
-    padding: 30px;
-    font-size: 1.7rem;
-}
-
-.footer_social li:hover{
-    transition: .3s ease-in-out;
-    background-color: #3652f1;
-    cursor: pointer;
-}
-
-.footer_social::before {
-    content:'';
-    height: 5px;
-    width: 200px;
-    position: absolute;
-    bottom: -30px;
-    background-color: #3652f1;
-}
-
 footer .footer_comercial{
     text-align: center;
     color: #707070;
