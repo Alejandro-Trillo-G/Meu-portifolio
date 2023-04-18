@@ -1,104 +1,273 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portifólio</title>
-  <link rel="stylesheet" href="./style.css">
-  <!-- importados -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <!-- \---------/ -->
-</head>
-
-<body>
-  <header id="header">
-    <h1 id="logo">Alejandro <span>Trillo</span></h1>
-    <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-        <span id="hamburger"></span>
-      </button>
-      <ul id="menu" role="menu">
-        <li><a href="/">Início</a></li>
-        <li><a href="/">Sobre</a></li>
-        <li><a href="/">Habilidades</a></li>
-        <li><a href="/">Projetos</a></li>
-        <li><a href="/">Resumo</a></li>
-        <li><a href="/">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section aria-label="seção currículo dowload Alejandro" class="section-div">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Importados -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAqDZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--  ----------------  -->
+  </head>
+  <body>
+    <header>
+      <h1>Alejandro <span>Trillo</span></h1>
+      <nav>
+        <ul aria-label="Navegação primária" class="navegacao-primaria">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">sobre</a></li>
+          <li><a href="#resume">Resumo</a></li>
+          <li><a href="#portfolio">Porfólio</a></li>
+          <li><a href="#pricing">Orçamento</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+    </header>
+    <section
+      aria-label="seção curriculo donwload Alejandro"
+      class="section-div"
+    >
       <div>
-          <h2>Olá, eu sou</h2>
-          <h2 class="digitando">Alejandro Trillo</h2>
-          <p>Desenvolvedor Web e Designer UX/UI, Apaixonado por programação e tecnologia, moro em Minas Gerais - Brasil 📍</p>
-          <a href="#">Dowload CV</a>
+        <h2>Olá, eu sou Alejandro</h2>
+        <h2 class="digitando">Web Developer and UX/UI Design</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          molestiae corporis ipsam voluptatum omnis repudiandae sequi numquam
+          labore illum iusto.
+        </p>
+        <a href="#">Dowload CV</a>
       </div>
-      <img src="img/8c53051c-14ae-4d6a-ad5c-1c103cca6696-removebg-preview.png" alt="imagem ilustrativa sobre minha pessoa">
-  </section>
-  <!-- SOBRE MIM -->
-  <main>
-    <article aria-label="Seção sobre mim" class="sobre">
+      <img
+        src="img/8c53051c-14ae-4d6a-ad5c-1c103cca6696-removebg-preview.png"
+        alt="ilustrativa imagem da minha pessoa"
+      />
+    </section>
+    <main>
+      <article aria-label="seção sobre mim" class="sobre">
         <div class="sobre_titulo">
-            <h1> Sobre mim</h1>
-            <p> Resumo completo Profissional - Sobre mim</p>
-            <div aria-label="seção de apenas alguns botões">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+          <h1>Sobre mim</h1>
+          <p>Contando um pouco mais sobre mim</p>
+          <div aria-label="Seção apenas de ilustrações de botões">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-        <img src="img/8c53051c-14ae-4d6a-ad5c-1c103cca6696-removebg-preview.png" alt="imagem ilustrativa sobre minha pessoa">
+        <img
+          src="img/8c53051c-14ae-4d6a-ad5c-1c103cca6696-removebg-preview.png"
+          alt="imagem de uma pessoa ilustrativa"
+        />
         <div class="sobre_conteudo">
-            <div class="sobre_texto">
-                <h1>Eu sou Alejandro Trillo</h1>
-                <p>
-                    Desenvolvedor espacializado em Front-End, Amo tecnologia, jogos e tornar tudo possível visualmente mais agradável e chamativo.
-                    <br>
-                    <br>
-                    Tenho 22 Anos, Estudante de Análise e Desenvolvimento de sistemas à Distância, na Faculdade Anhanguera.
-                </p>
-            </div>
-            <div class="sobre_info">
-                <p><i class="fa-solid fa-calendar-days"></i> Data Aniversário: 15 de Dezembro </p>
-                <p><i class="fa-solid fa-location-dot"></i> Minas Gerais - Brasil.</p>
-                <p><i class="fa-sharp fa-solid fa-globe"></i> Idiomas: Português (Brasil), Espanhol.</p>
-                <p><i class="fa-solid fa-flag"></i> Natural: Espanha</p>
-                <p><i class="fa-solid fa-envelope"></i> Email: alejandrotg2010@gmail.com</p>
-            </div>
+          <div class="sobre_texto">
+            <h1>Alejandro Trillo Gonçalves</h1>
+            <p>
+              Desenvolvedor espacializado em Front-End, Amo tecnologia, jogos e
+              tornar tudo possível visualmente mais agradável e chamativo.
+              <br />
+              <br />
+              Tenho 22 Anos, Estudante de Análise e Desenvolvimento de sistemas
+              à Distância, na Faculdade Anhanguera.
+            </p>
+          </div>
+          <div class="sobre_info">
+            <p>
+              <i class="fa-solid fa-calendar-days"></i>Data Aniversário: 15 de
+              Dezembro
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-laptop-code"></i>Freelance:
+              Avaliável
+            </p>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Moro em: Minas
+              Gerais-Brasil.
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-globe"></i> Idiomas: Português
+              (Brasil), Espanhol (Nativo).
+            </p>
+            <p><i class="fa-solid fa-flag"></i>Natural: Espanha</p>
+            <p>
+              <i class="fa-solid fa-envelope"></i>E-mail:
+              alejandrotg2010@gmail.com
+            </p>
+          </div>
         </div>
-    </article>
-</main>
-<section class="projetos">
-    <div class="projetos_titulo">
-        <h1> Projetos</h1>
-        <p> Resumo completo Profissional - Sobre mim</p>
-        <div aria-label="seção de apenas alguns botões">
-            <span></span>
-            <span></span>
-            <span></span>
+      </article>
+    </main>
+    <section class="services">
+      <div class="sobre_titulo">
+        <h1>Perfil profissional</h1>
+        <p>Professional Profile - There is All About me</p>
+        <div aria-label="Seção apenas de ilustrações de botões">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="my_projects">
+      </div>
+      <div class="my_services">
+        <ul aria-label="Navegação secundaria">
+          <li>
+            <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+            <h3>Web Designer</h3>
+            <p>
+              Responsável tanto pelo projeto estético de um site quanto por seu
+              objetivo funcional.
+            </p>
+          </li>
+          <li>
+            <i class="fa-solid fa-globe"></i>
+            <h3>Desenvolvedor Web</h3>
+            <p>Programo Websites e aplicações online para empresas</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-medal"></i>
+            <h3>Desing Criativo</h3>
+            <p>Foco em Desing Moderno e futurístio.</p>
+          </li>
+          <li>
+            <i class="fa-sharp fa-solid fa-palette"></i>
+            <h3>UX/UI</h3>
+            <p>
+              Trabalho focado na experiência do usuário e na usabilidade de
+              interface.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="my_resume">
+      <div class="sobre_titulo">
+        <h1>Resumo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div aria-label="Seção apenas de ilustrações de botões">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="resume_gerenico">
+        <h2 class="experience">
+          <i class="fa-solid fa-handshake"></i>EXPERIENCE
+        </h2>
+        <div class="experience_content">
+          <div>
+            <span>2017-2019</span>
+            <h3>UI/UX Developer - Themeforest</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim</p>
+          </div>
+          <div>
+            <span>2015-2017</span>
+            <h3>Web Design - BubbleBix</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+              ex.
+            </p>
+          </div>
+          <div>
+            <span>2022-2023</span>
+            <h3>Web Developer - GlobalSix</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+              ex.
+            </p>
+          </div>
+          <ul>
+            <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+            <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+            <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+          </ul>
+        </div>
+        <h2 class="education"><i class="fa-solid fa-book"></i>EDUCATION</h2>
+        <div class="education_content">
+          <div>
+            <span>2015 - 2019</span>
+            <h3>Bachalor - University</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim</p>
+          </div>
+          <div>
+            <span>2019 - 2022</span>
+            <h3>WebMaster - Fullstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim</p>
+          </div>
+          <ul>
+            <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+            <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cursos">
+        <div class="my_skill">
+          <h2><i class="fa-sharp fa-regular fa-star"></i>Habilidades</h2>
+          <div class="skill_content">
+            <h3>HTML 5</h3>
             <ul>
-                <li>
-                  <i class="fa-solid fa-code"></i>
-                    <h3>Em Breve</h3>
-                </li>
-                <li>
-                  <i class="fa-solid fa-code"></i>
-                    <h3>Em Breve</h3>
-                </li>
-                <li>
-                  <i class="fa-solid fa-code"></i>
-                    <h3>Em Breve</h3>
-                </li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star-sharp-half-stroke"></i></li>
             </ul>
+          </div>
+          <div class="skill_content">
+            <h3>CSS 3</h3>
+            <ul>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <li><i class="fa-regular fa-star-sharp-half-stroke"></i></li>
+            </ul>
+          </div>
+          <div class="skill_content">
+            <h3>GIMP</h3>
+            <ul>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star-sharp-half-stroke"></i></li>
+            </ul>
+          </div>
+          <div class="skill_content">
+            <h3>REACT</h3>
+            <ul>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <li><i class="fa-regular fa-star-sharp-half-stroke"></i></li>
+            </ul>
+          </div>
+          <div class="skill_content">
+            <h3>JAVASCRIPT</h3>
+            <ul>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <li><i class="fa-regular fa-star-sharp-half-stroke"></i></li>
+            </ul>
+          </div>
+          <div class="skill_content">
+            <h3>GIT</h3>
+            <ul>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star-sharp-half-stroke"></i></li>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </ul>
+          </div>
         </div>
-</section>
-  <script src="./script.js"></script>
-</body>
+      </div>
+    </section>
 
+    <script src="script.js"></script>
+  </body>
 </html>
